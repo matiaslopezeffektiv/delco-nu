@@ -1,0 +1,84 @@
+{
+  "content_file": "tjanster-kontorsstadning-helsingborg.html",
+  "canonical": "/tjanster/kontorsstadning/helsingborg/",
+  "priority": "0.7",
+  "title": "Kontorsstädning i Helsingborg – fast pris & RUT-avdrag | Delco AB",
+  "description": "Kontorsstädning i Helsingborg som städabonnemang. Fast pris, ingen bindningstid, F-skatt och försäkring. 15 års erfarenhet i Helsingborg. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Kontorsstädning i Helsingborg",
+      "provider": {
+        "@type": "HousekeepingService",
+        "name": "Delco AB",
+        "telephone": "+464081488"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Helsingborg"
+      },
+      "url": "https://delco.nu/tjanster/kontorsstadning/helsingborg/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://delco.nu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tjänster",
+          "item": "https://delco.nu/tjanster/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kontorsstädning",
+          "item": "https://delco.nu/tjanster/kontorsstadning/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Helsingborg",
+          "item": "https://delco.nu/tjanster/kontorsstadning/helsingborg/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad kostar kontorsstädning i Helsingborg med fast pris?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kostnaden beror på lokalens storlek, antal städtillfällen per vecka och vilka ytor som ingår. Vi besöker gärna er lokal i Helsingborg och lämnar ett fast pris utan dolda avgifter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan kontorsstädningen i Helsingborg ske utanför kontorstid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi anpassar tiderna efter er verksamhet och kan städa både morgon, kväll eller under dagtid om det passar bättre för er."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Har ni F-skatt och försäkring för företagskunder i Helsingborg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Delco AB innehar F-skattsedel och är fullt försäkrat, vilket är en trygghet för både mindre kontor och större verksamheter i Helsingborg."
+          }
+        }
+      ]
+    }
+  ]
+}

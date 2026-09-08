@@ -1,0 +1,43 @@
+/*-------------------------
+    Call to Action
+--------------------------*/
+.cta__block {
+    padding: 15px 18px;
+    border-radius: 7px;
+    background-color: $color-white;
+    box-shadow: 0px 5px 83px 0px rgba(3, 43, 86, 0.12);
+}
+
+.cta-banner {
+    position: relative;
+    z-index: 3;
+    padding: 40px;
+    max-width: 300px;
+    border-radius: 4px;
+    background-color: $color-white;
+    box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
+
+    .cta__title {
+        font-family: $font-secondary;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .cta__icon {
+        color: $color-primary;
+        font-size: 70px;
+        line-height: 1;
+        margin-bottom: 25px;
+
+        i {
+            line-height: 1;
+        }
+    }
+}
+
+/* Mobile Phones & tablets and Small Screens */
+@include xs-sm-screens {
+    .cta-banner .cta__title {
+        font-size: 16px;
+    }
+}

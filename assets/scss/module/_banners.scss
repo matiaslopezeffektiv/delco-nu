@@ -1,0 +1,58 @@
+/*-----------------------
+    banner
+------------------------*/
+.banner-layout3 {
+    .clients {
+        margin-bottom: 30px;
+        border-bottom: 1px solid rgba(234, 234, 234, 0.3);
+    }
+}
+
+@media (min-width:1600px) {
+    .banner-layout1 {
+        .inner-padding {
+            padding: 120px 130px 130px 160px;
+        }
+    }
+
+    .banner-layout2 {
+
+        .inner-padding,
+        .testimonials-layout1 {
+            padding: 90px 160px;
+        }
+    }
+}
+
+/* Extra Large Size Screens */
+@media (min-width:1200px) {
+    .banner-layout1 {
+        .inner-padding {
+            padding: 120px 65px 130px;
+        }
+    }
+
+    .banner-layout2 {
+
+        .inner-padding,
+        .testimonials-layout1 {
+            padding: 90px 65px 90px;
+        }
+
+        .counter-item {
+            margin: 20px 0 0;
+        }
+    }
+
+    .banner-layout3 {
+        .banner__img {
+            border-radius: 8px;
+            margin-bottom: -80px;
+            box-shadow: 0px 5px 83px 0px rgba(3, 43, 86, 0.12);
+        }
+
+        .clients {
+            margin-bottom: 110px;
+        }
+    }
+}

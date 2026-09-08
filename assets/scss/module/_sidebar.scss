@@ -1,0 +1,437 @@
+/*--------------------
+    Sidebar
+----------------------*/
+.sidebar.sticky-top {
+    top: 100px;
+}
+
+.widget {
+    position: relative;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: #f0f1f1;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50px;
+        right: 50px;
+        height: 4px;
+        background-color: $color-secondary;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .widget__title {
+        font-size: 20px;
+        margin-bottom: 23px;
+    }
+}
+
+.widget-search {
+    &:after {
+        display: none;
+    }
+
+    .widget__form-search {
+        position: relative;
+
+        .form-control {
+            height: 55px;
+            border-radius: 9px;
+            background-color: $color-white;
+
+            &:focus {
+                border-color: #eef3fa;
+            }
+        }
+
+        .btn {
+            position: absolute;
+            top: 0;
+            right: 20px;
+            width: auto;
+            color: $color-secondary;
+            padding: 0;
+            min-width: 0;
+            height: 55px;
+            line-height: 55px;
+
+            &:before {
+                display: none;
+            }
+
+            &:hover {
+                color: $color-secondary;
+            }
+        }
+    }
+}
+
+.widget-categories ul li {
+    margin-bottom: 9px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    a {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 15px 20px;
+        border-radius: 5px;
+        text-transform: capitalize;
+        color: $color-secondary;
+        font-family: $font-primary;
+        background-color: $color-white;
+        box-shadow: 0px 3px 63px 0px rgba(6, 52, 100, 0.11);
+        @include prefix(transition, all 0.3s linear, webkit moz ms o);
+
+        &:hover {
+            color: $color-primary;
+        }
+
+        .cat-count {
+            font-size: 13px;
+            font-weight: 400;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            color: $color-white;
+            background-color: $color-primary;
+        }
+    }
+}
+
+.widget-categories-layout2 li a {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.widget-services ul li {
+    margin-bottom: 4px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    a {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 22px 30px;
+        text-transform: capitalize;
+        border-radius: 6px;
+        font-family: $font-primary;
+        color: $color-secondary;
+        background-color: $color-white;
+        @include prefix(transition, all 0.4s ease, webkit moz ms o);
+
+        &:hover {
+            color: $color-white;
+            background-color: $color-primary;
+        }
+    }
+}
+
+.widget-tags ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    li a {
+        display: block;
+        font-size: 14px;
+        line-height: 1;
+        text-transform: capitalize;
+        padding: 6px 10px;
+        margin: 0 10px 10px 0;
+        border-radius: 6px;
+        color: $color-white;
+        background-color: $color-primary;
+        @include prefix(transition, all 0.4s ease, webkit moz ms o);
+
+        &:hover {
+            color: $color-white;
+            background-color: $color-secondary;
+        }
+    }
+}
+
+/*widget posts*/
+.widget-post-item {
+    padding: 20px;
+    border-radius: 8px;
+    @include prefix(transition, all 0.4s ease, webkit moz ms o);
+
+    &:hover {
+        background-color: $color-white;
+    }
+
+    .widget-post__title {
+        font-size: 16px;
+        margin-bottom: 0;
+
+        a {
+            color: $color-secondary;
+        }
+    }
+
+    &:hover .widget-post__title a {
+        color: $color-primary;
+    }
+
+    .widget-post__img {
+        flex: 0 0 80px;
+        max-width: 80px;
+        margin-right: 15px;
+
+        img {
+            border-radius: 5px;
+        }
+    }
+
+    .widget-post__date {
+        color: #1d65b9;
+        line-height: 1;
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+}
+
+/*widget products*/
+.widget-poducts .widget-product-item {
+    margin-bottom: 20px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .widget-product__title {
+        font-size: 15px;
+        margin-bottom: 0;
+
+        a {
+            color: $color-secondary;
+        }
+    }
+
+    &:hover .widget-product__title a {
+        color: $color-primary;
+    }
+
+    .widget-product__img {
+        margin-right: 20px;
+        flex: 0 0 50px;
+        max-width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 2px;
+
+        img {
+            border-radius: 5px;
+        }
+    }
+
+    .widget-product__price {
+        color: $color-primary;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+
+/* Widget Help */
+.widget-help {
+    &:after {
+        display: none;
+    }
+
+    .widget__icon,
+    .widget__title,
+    .widget__subtitle,
+    .widget__desc {
+        color: $color-white;
+    }
+
+    .widget__title {
+        font-size: 24px;
+    }
+
+    .widget__subtitle {
+        font-family: $font-accent;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .widget__desc {
+        font-size: 16px;
+    }
+
+    .phone__number {
+        margin-top: 5px;
+        color: $color-white !important;
+    }
+}
+
+/* Widget Filter */
+.widget-filter {
+    .ui-slider {
+        background-color: rgba(34, 34, 34, 0.06);
+        border-radius: 0;
+        height: 4px;
+        margin-bottom: 18px;
+    }
+
+    .ui-slider-range {
+        height: 4px;
+        background-color: $color-primary;
+    }
+
+    .price-output {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    label {
+        color: $color-body;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    input {
+        background-color: transparent;
+        color: $color-primary;
+        font-size: 14px;
+        border: none;
+    }
+
+    .btn__filter {
+        font-size: 14px;
+        font-weight: 700;
+        color: $color-secondary;
+    }
+}
+
+.ui-slider {
+    position: relative;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-widget.ui-widget-content {
+    border: none;
+}
+
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: $color-primary;
+}
+
+.ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+
+.ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+
+.sidebar-layout2 {
+    .widget {
+        padding: 0;
+        background-color: transparent;
+
+        &:after {
+            display: none;
+        }
+    }
+}
+
+@media (min-width:1200px) {
+    .sidebar {
+        &.has-marign-right {
+            margin-right: 40px;
+        }
+
+        &.has-marign-left {
+            margin-left: 40px;
+        }
+    }
+
+    .widget-member.shifted-top {
+        margin-top: -450px;
+    }
+
+    .widget-download .btn {
+        height: 80px;
+        justify-content: flex-start;
+
+        i,
+        span {
+            margin: 0 10px;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .widget {
+        padding: 20px;
+        margin-bottom: 30px;
+
+        &:after {
+            left: 20px;
+            right: 20px;
+        }
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+    .widget {
+        padding: 15px;
+
+        &:after {
+            top: 15px;
+            bottom: 15px;
+        }
+
+        .widget__title {
+            margin-bottom: 20px;
+        }
+    }
+
+    .widget-categories ul {
+        padding: 0;
+
+        li a {
+            font-size: 13px;
+        }
+    }
+}

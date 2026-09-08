@@ -1,0 +1,29 @@
+{
+  "content_file": "tjanster-flytt.html",
+  "canonical": "/tjanster/flytt-och-storstadning/",
+  "priority": "0.8",
+  "title": "Flytt- & storstädning – engångsstädning | Delco AB",
+  "description": "Flyttstädning och storstädning som engångstjänst i Skåne, med RUT-avdrag för privatpersoner. Begär offert från Delco AB idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Flyttstädning och storstädning",
+      "provider": {"@type": "HousekeepingService", "name": "Delco AB", "@id": "https://delco.nu/#organization"},
+      "areaServed": ["Malmö", "Lund", "Landskrona", "Eslöv", "Kävlinge", "Helsingborg", "Staffanstorp"],
+      "url": "https://delco.nu/tjanster/flytt-och-storstadning/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Vad är skillnaden mellan flyttstädning och storstädning?", "acceptedAnswer": {"@type": "Answer", "text": "Flyttstädning görs när bostaden är tom och ska godkännas vid besiktning, med extra fokus på till exempel insidan av skåp och vitvaror. Storstädning är en grundlig engångsstädning av en bostad man fortfarande bor i, till exempel inför en fest eller efter renovering."}},
+        {"@type": "Question", "name": "Får jag RUT-avdrag på flytt- eller storstädning?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, som privatperson kan du få RUT-avdrag på arbetskostnaden även för engångsstädning som flytt- och storstädning."}},
+        {"@type": "Question", "name": "Behöver jag boka städabonnemang istället för engångsstädning?", "acceptedAnswer": {"@type": "Answer", "text": "Om du regelbundet vill hålla hemmet eller kontoret rent är ett löpande städabonnemang oftast både smidigare och billigare över tid än att boka engångsstädning gång på gång. Flytt- och storstädning passar bäst för enstaka tillfällen."}},
+        {"@type": "Question", "name": "Hur lång tid innan behöver jag boka flyttstädning?", "acceptedAnswer": {"@type": "Answer", "text": "Vi rekommenderar att boka minst någon till några veckor i förväg, särskilt kring månadsskiften då många flyttar samtidigt."}},
+        {"@type": "Question", "name": "Vad händer om besiktningen inte godkänner städningen?", "acceptedAnswer": {"@type": "Answer", "text": "Skulle något moment missas kommer vi tillbaka och åtgärdar det utan extra kostnad, i enlighet med vår nöjd-kund-garanti."}},
+        {"@type": "Question", "name": "Kan jag boka flyttstädning på en annan adress än min egen?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, många beställer flyttstädning åt föräldrar eller vid dödsbon. Uppge bara rätt adress och kontaktuppgifter i offertformuläret."}}
+      ]
+    }
+  ]
+}

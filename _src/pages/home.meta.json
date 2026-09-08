@@ -1,0 +1,101 @@
+{
+  "content_file": "home.html",
+  "canonical": "/",
+  "priority": "1.0",
+  "title": "Städabonnemang i Skåne – Delco AB | Delco AB",
+  "description": "Delco AB erbjuder hemstädning, kontorsstädning och trappstädning som fast abonnemang i Malmö, Lund och sex andra orter i Skåne. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "HousekeepingService",
+      "@id": "https://delco.nu/#organization",
+      "name": "Delco AB",
+      "image": "https://delco.nu/assets/images/logo/logo-dark.png",
+      "url": "https://delco.nu/",
+      "telephone": "+464081488",
+      "email": "info@delcoab.se",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lundavägen 78",
+        "postalCode": "212 25",
+        "addressLocality": "Malmö",
+        "addressCountry": "SE"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "15:00"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "148"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Malmö"},
+        {"@type": "City", "name": "Lund"},
+        {"@type": "City", "name": "Landskrona"},
+        {"@type": "City", "name": "Eslöv"},
+        {"@type": "City", "name": "Kävlinge"},
+        {"@type": "City", "name": "Helsingborg"},
+        {"@type": "City", "name": "Staffanstorp"}
+      ],
+      "sameAs": ["https://facebook.com/delcoab", "https://linkedin.com/company/delco-ab", "https://delcoab.se"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad kostar städning som abonnemang?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Priset beror på bostadens eller lokalens storlek, önskad frekvens och vilka moment som ska ingå. Du får alltid ett fast pris innan städningen börjar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Får jag RUT-avdrag på städningen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, som privatperson får du RUT-avdrag med upp till 50 % av arbetskostnaden – Delco AB sköter ansökan åt dig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det bindningstid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, städabonnemangen har ingen bindningstid. Du kan pausa, ändra frekvens eller avsluta när det passar dig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Får jag samma städare varje gång?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, du får en fast städare eller ett fast team som lär känna ditt hem eller din verksamhet och dina önskemål."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vilka områden täcker ni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Delco AB städar i Malmö, Lund, Landskrona, Eslöv, Kävlinge, Helsingborg och Staffanstorp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Har Delco AB F-skatt och försäkring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Delco AB innehar F-skattsedel och är fullt försäkrat vid varje uppdrag, både för privatkunder och företag/BRF."
+          }
+        }
+      ]
+    }
+  ]
+}

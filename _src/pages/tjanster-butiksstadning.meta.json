@@ -1,0 +1,128 @@
+{
+  "content_file": "tjanster-butiksstadning.html",
+  "canonical": "/tjanster/butiksstadning/",
+  "priority": "0.8",
+  "title": "Butiksstädning – fast pris & RUT/F-skatt | Delco AB",
+  "description": "Butiksstädning som städabonnemang i Skåne. Fast pris, F-skatt, försäkring, ingen bindningstid. 19 års erfarenhet. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Butiksstädning",
+      "provider": {
+        "@type": "HousekeepingService",
+        "name": "Delco AB",
+        "telephone": "+464081488"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Malmö"
+        },
+        {
+          "@type": "City",
+          "name": "Lund"
+        },
+        {
+          "@type": "City",
+          "name": "Landskrona"
+        },
+        {
+          "@type": "City",
+          "name": "Eslöv"
+        },
+        {
+          "@type": "City",
+          "name": "Kävlinge"
+        },
+        {
+          "@type": "City",
+          "name": "Helsingborg"
+        },
+        {
+          "@type": "City",
+          "name": "Staffanstorp"
+        }
+      ],
+      "url": "https://delco.nu/tjanster/butiksstadning/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://delco.nu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tjänster",
+          "item": "https://delco.nu/tjanster/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Butiksstädning",
+          "item": "https://delco.nu/tjanster/butiksstadning/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kan butiksstädningen ske innan öppning eller efter stängning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi anpassar tiderna efter er verksamhet och städar gärna tidigt på morgonen eller efter stängning så att det inte stör kunder eller personal under öppettider."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad kostar butiksstädning med fast pris?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kostnaden beror på butikens storlek, antal städtillfällen per vecka och vilka ytor som ingår. Vi besöker gärna butiken och lämnar ett fast pris utan dolda avgifter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ni hantera säsongsvariationer, till exempel extra städning inför rea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolut, vi arbetar utan bindningstid och kan tillfälligt utöka städningen vid behov, till exempel inför rea eller högsäsong."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ni städa flera butiker i samma kedja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi sätter gärna upp ett gemensamt avtal och pris för flera butiker inom samma kedja eller fastighet, med en och samma kontaktperson hos oss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det bindningstid på butiksstädningsavtalet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, avtalet löper utan bindningstid och går att justera eller säga upp med kort varsel om era behov förändras."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ni hantera nycklar eller larmkoder till butiken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi kommer överens om rutiner för nycklar, passerkort eller larmkoder redan vid vårt första besök, så att städningen fungerar smidigt oavsett om butiken är öppen eller stängd."
+          }
+        }
+      ]
+    }
+  ]
+}

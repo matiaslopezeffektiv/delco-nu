@@ -1,0 +1,87 @@
+{
+  "content_file": "omraden-staffanstorp.html",
+  "canonical": "/omraden/staffanstorp/",
+  "priority": "0.9",
+  "title": "Städabonnemang i Staffanstorp – fast pris | Delco AB",
+  "description": "Hemstädning, kontorsstädning & trappstädning som abonnemang i Staffanstorp. Fast pris, RUT-avdrag, ingen bindningstid. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://delco.nu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Områden",
+          "item": "https://delco.nu/omraden/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Staffanstorp",
+          "item": "https://delco.nu/omraden/staffanstorp/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur bokar jag städabonnemang i Staffanstorp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fyll i offertformuläret med adress i Staffanstorp eller Hjärup, önskad tjänst och frekvens. Vi återkommer med ett fast pris, bokar en kostnadsfri provstädning och startar sedan ett återkommande schema."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad kostar varannan vecka-städning i Staffanstorp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Priset beror på bostadens storlek och önskad frekvens. Som privatperson får du RUT-avdrag på arbetskostnaden. Begär offert för ett fast pris på städning varannan vecka eller annan frekvens i Staffanstorp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är Delco bästa städfirman i Staffanstorp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vi vill hellre visa det genom vårt arbete – 4,8 av 5 i betyg utifrån 148 recensioner, F-skatt, försäkring och nöjd-kund-garanti. Begär en offert och bilda dig en egen uppfattning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vilka delar av Staffanstorp täcker ni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vi städar i hela Staffanstorp, bland annat i centralorten och Hjärup. Hittar du inte ditt område, kontakta oss så stämmer vi av om vi täcker det."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Får jag samma städare varje gång i Staffanstorp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, du får en fast städare eller ett fast team som lär känna ditt hem eller din verksamhet i Staffanstorp – inte en ny person varje gång."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det bindningstid på städabonnemanget i Staffanstorp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, våra städabonnemang i Staffanstorp har ingen bindningstid. Du kan pausa, ändra frekvens eller avsluta när det passar dig."
+          }
+        }
+      ]
+    }
+  ]
+}

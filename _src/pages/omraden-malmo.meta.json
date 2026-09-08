@@ -1,0 +1,87 @@
+{
+  "content_file": "omraden-malmo.html",
+  "canonical": "/omraden/malmo/",
+  "priority": "0.95",
+  "title": "Städabonnemang i Malmö – fast pris | Delco AB",
+  "description": "Hemstädning, kontorsstädning & trappstädning som abonnemang i Malmö. Fast pris, ingen bindningstid, RUT-avdrag. Begär offert från Delco AB.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://delco.nu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Områden",
+          "item": "https://delco.nu/omraden/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Malmö",
+          "item": "https://delco.nu/omraden/malmo/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur bokar jag städabonnemang i Malmö?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fyll i vårt offertformulär med adress, önskad tjänst och frekvens. Vi återkommer med ett fast pris, bokar en kostnadsfri provstädning och sätter därefter upp ett återkommande schema."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad kostar löpande städservice i Malmö?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Priset styrs av bostadens eller lokalens storlek, önskad frekvens och vilka moment som ska ingå. Privatpersoner får RUT-avdrag på arbetskostnaden. Begär offert så får du en tydlig prisbild för just ditt hem eller din verksamhet i Malmö."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är Delco bästa städfirman i Malmö?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vi påstår inte att vi är bäst i staden, men vi har 4,8 av 5 i betyg baserat på 148 recensioner och arbetar med F-skatt, försäkring och nöjd-kund-garanti. Läs recensionerna och avgör själv, eller begär en offert så får du prova oss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vilka delar av Malmö täcker ni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vi städar i hela Malmö, bland annat i Västra Hamnen, Limhamn, Hyllie, Rosengård, Oxie och Fosie. Hittar du inte ditt område, kontakta oss så stämmer vi av om vi täcker det."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Får jag samma städare varje gång i Malmö?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, du får en fast städare eller ett fast team som lär känna ditt hem eller din verksamhet i Malmö – inte en ny person varje gång."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det bindningstid på städabonnemanget i Malmö?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, våra städabonnemang i Malmö har ingen bindningstid. Du kan pausa, ändra frekvens eller avsluta när det passar dig."
+          }
+        }
+      ]
+    }
+  ]
+}

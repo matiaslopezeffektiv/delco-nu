@@ -1,0 +1,30 @@
+{
+  "content_file": "tjanster-kontorsstadning.html",
+  "canonical": "/tjanster/kontorsstadning/",
+  "priority": "0.9",
+  "title": "Kontorsstädning – städabonnemang fast pris | Delco AB",
+  "description": "Kontorsstädning som löpande abonnemang i Skåne, anpassad efter er verksamhet. Fast pris, F-skatt och försäkring. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Kontorsstädning",
+      "provider": {"@type": "HousekeepingService", "name": "Delco AB", "@id": "https://delco.nu/#organization"},
+      "areaServed": ["Malmö", "Lund", "Landskrona", "Eslöv", "Kävlinge", "Helsingborg", "Staffanstorp"],
+      "url": "https://delco.nu/tjanster/kontorsstadning/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Vad kostar kontorsstädning med fast pris?", "acceptedAnswer": {"@type": "Answer", "text": "Kostnaden beror på lokalens storlek, antal städtillfällen per vecka och vilka ytor som ingår. Vi besöker gärna er lokal och lämnar ett fast pris utan dolda avgifter."}},
+        {"@type": "Question", "name": "Kan städningen ske utanför kontorstid?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, vi anpassar tiderna efter er verksamhet och kan städa både morgon, kväll eller under dagtid om det passar bättre för er."}},
+        {"@type": "Question", "name": "Har ni F-skatt och försäkring för företagskunder?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, Delco AB innehar F-skattsedel och är fullt försäkrat, vilket är en trygghet för både mindre kontor och större verksamheter."}},
+        {"@type": "Question", "name": "Kan vi ändra städfrekvens under avtalstiden?", "acceptedAnswer": {"@type": "Answer", "text": "Absolut. Vi arbetar utan bindningstid och justerar gärna frekvens eller omfattning om era behov förändras."}},
+        {"@type": "Question", "name": "Får vi samma städare vid varje tillfälle?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, ni får en fast städare eller ett fast team som lär känna era lokaler och rutiner – inte en ny person varje gång."}},
+        {"@type": "Question", "name": "Hur hanterar ni larm och passerkort till lokalen?", "acceptedAnswer": {"@type": "Answer", "text": "Vi kommer överens om rutiner för nycklar, passerkort eller larmkoder redan vid platsbesöket."}},
+        {"@type": "Question", "name": "Kan ni städa flera kontor eller våningsplan i samma avtal?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, vi sätter gärna upp ett gemensamt schema och pris för flera lokaler eller våningsplan inom samma verksamhet."}}
+      ]
+    }
+  ]
+}

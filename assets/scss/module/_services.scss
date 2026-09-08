@@ -1,0 +1,341 @@
+/*-----------------------
+    Services 
+--------------------------*/
+.service-item {
+    position: relative;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: $color-white;
+    box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.05);
+    @include prefix(transition, all .4s ease, webkit moz ms o);
+
+    .service__body {
+        position: relative;
+        z-index: 2;
+    }
+
+    .service__icon {
+        position: relative;
+        height: 80px;
+        color: #1d65b9;
+        font-size: 75px;
+        line-height: 1;
+        margin-bottom: 25px;
+        @include prefix(transition, all .3s linear, webkit moz ms o);
+
+        >i {
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    .service__title {
+        font-size: 23px;
+        margin-bottom: 31px;
+        @include prefix(transition, all .3s linear, webkit moz ms o);
+    }
+
+    .service__desc {
+        font-size: 15px;
+        margin-bottom: 32px;
+        @include prefix(transition, all .3s linear, webkit moz ms o);
+    }
+
+    .btn {
+        &:not(.btn__link) {
+            height: 65px;
+        }
+
+        &.btn__secondary {
+            &:hover {
+                color: $color-secondary;
+
+                .icon-outlined {
+                    color: $color-white;
+                    border-color: $color-secondary;
+                    background-color: $color-secondary;
+                }
+            }
+
+            &:before {
+                background-color: $color-accent !important;
+            }
+        }
+    }
+
+    &:hover {
+        .btn__secondary {
+            color: $color-secondary;
+            background-color: $color-accent;
+
+            .icon-outlined {
+                color: $color-white;
+                border-color: $color-secondary;
+                background-color: $color-secondary;
+            }
+        }
+    }
+}
+
+.services-layout1 {
+    .service-item {
+        overflow: hidden;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: -1px;
+            bottom: 0;
+            z-index: 2;
+            border-radius: 12px;
+            background-color: $color-white;
+            @include prefix(transition, all .3s ease, webkit moz ms o);
+            clip-path: polygon(50% 0, 100% 38%, 100% 100%, 0 100%, 0 0);
+        }
+
+        .service__overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 80%;
+            height: 80%;
+            @include prefix(transition, all .1s ease, webkit moz ms o);
+        }
+
+        .service__icon {
+            &:before {
+                content: '';
+                position: absolute;
+                top: -20px;
+                left: -20px;
+                width: 84px;
+                height: 80px;
+                background-image: url(../images/icons/shape2.svg);
+                @include prefix(transition, all .3s ease, webkit moz ms o);
+            }
+        }
+
+        &:hover {
+            &:before {
+                background: rgba(41, 131, 253, .85);
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+            }
+
+            .service__overlay {
+                width: 100%;
+                height: 100%;
+            }
+
+            .service__icon:before {
+                opacity: 0;
+            }
+
+            .service__title,
+            .service__desc,
+            .service__icon {
+                color: $color-white;
+            }
+        }
+    }
+}
+
+.services-layout2 {
+    .service-item {
+        padding: 0;
+        background-color: transparent;
+
+        .service__meta {
+            position: relative;
+            padding-bottom: 80px;
+            overflow: hidden;
+            border-radius: 0 0 7px 7px;
+        }
+
+        .service__icon {
+            position: absolute;
+            top: -40px;
+        }
+
+        .service__body {
+            z-index: 3;
+            padding: 50px 50px 30px;
+            border-radius: 7px 7px 0 0;
+            background-color: $color-white;
+
+            .service__desc {
+                margin-bottom: 0;
+            }
+        }
+
+        .service__features {
+            margin-top: -20px;
+            position: relative;
+            z-index: 2;
+            padding: 20px 50px 50px;
+            background-color: $color-white;
+            @include prefix(transition, all .3s ease-in-out, webkit moz ms o);
+        }
+
+        .service__overlay {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -120px;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            @include prefix(transition, all .3s ease-in-out, webkit moz ms o);
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: -webkit-linear-gradient(bottom, #2983fd 0%, rgba(142, 189, 253, .1) 50%, rgba(255, 255, 255, 0) 100%);
+                background: -o-linear-gradient(bottom, #2983fd 0%, rgba(142, 189, 253, .1) 50%, rgba(255, 255, 255, 0) 100%);
+                background: -ms-linear-gradient(bottom, #2983fd 0%, rgba(142, 189, 253, .1) 50%, rgba(255, 255, 255, 0) 100%);
+                background: -moz-linear-gradient(bottom, #2983fd 0%, rgba(142, 189, 253, .1) 50%, rgba(255, 255, 255, 0) 100%);
+                background: linear-gradient(to top, #2983fd 0%, rgba(142, 189, 253, .1) 50%, rgba(255, 255, 255, 0) 100%);
+                @include prefix(transition, all .3s ease-in-out, webkit moz ms o);
+            }
+
+            .btn {
+                position: absolute;
+                bottom: 50px;
+                left: 50px;
+                right: 50px;
+            }
+        }
+
+        &:hover {
+            .service__features {
+                opacity: 0;
+                transform: translateY(-100%);
+            }
+
+            .service__overlay {
+                bottom: 0;
+            }
+        }
+    }
+
+    &.services-carousel {
+        .service-item {
+            margin-top: 40px;
+        }
+    }
+}
+
+.services-carousel {
+    .service-item {
+        box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.05);
+
+        &:hover {
+            box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
+        }
+    }
+
+    .slick-dots {
+        text-align: center;
+    }
+
+    .slick-list {
+        margin: -15px;
+        overflow: visible;
+    }
+
+    .slick-slide {
+        margin: 15px;
+        @include prefix(transition, all 0.3s ease, webkit moz ms o);
+
+        &.slick-active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        &:not(.slick-active) {
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+}
+
+@media(max-width:1199px) {
+    .services-layout2 {
+        .service-item {
+            .service__body {
+                padding: 50px 20px 20px;
+            }
+
+            .service__features {
+                padding: 20px;
+            }
+
+            .service__title {
+                margin-bottom: 10px;
+            }
+
+            .service__overlay .btn {
+                left: 20px;
+                right: 20px;
+            }
+        }
+    }
+}
+
+/* Mobile Phones & tablets and Small Screens */
+@media (max-width:992px) {
+    .service-item {
+        padding: 20px;
+
+        .service__icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .service__title {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .service__desc {
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .services-layout1 {
+        .service-item {
+            .service__icon {
+                height: auto;
+
+                &:before {
+                    display: none;
+                }
+            }
+
+            .btn:not(.btn__link) {
+                height: 50px;
+            }
+        }
+    }
+
+    .services-layout2 {
+        .service-item {
+            margin-bottom: 30px;
+
+            .service__body {
+                padding: 15px 0 0 0;
+            }
+        }
+    }
+
+    .services-layout3 .service-item {
+        padding: 20px;
+    }
+}

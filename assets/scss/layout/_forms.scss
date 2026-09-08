@@ -1,0 +1,222 @@
+/*---------------------------
+        Forms
+----------------------------*/
+label {
+    color: $color-secondary;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 10px;
+
+    &.error {
+        color: red;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 7px 0 0 0;
+    }
+}
+
+.form-check-label {
+    font-weight: 400;
+    color: $color-body;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    font-size: 14px;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 5px;
+    background-color: #eef3fa;
+    border: 2px solid #eef3fa;
+
+    &:focus {
+        border-color: $color-primary;
+        background-color: #eef3fa;
+    }
+
+    &::-webkit-input-placeholder {
+        color: #4b6d8f;
+    }
+
+    &:-moz-placeholder {
+        color: #4b6d8f;
+    }
+
+    &::-moz-placeholder {
+        color: #4b6d8f;
+    }
+
+    &:-ms-input-placeholder {
+        color: #4b6d8f;
+    }
+}
+
+textarea.form-control {
+    min-height: 105px;
+    padding-top: 10px;
+}
+
+.form__title {
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+/* Input Radio */
+.custom-control {
+    min-height: 0;
+    padding-left: 25px;
+}
+
+.custom-radio .custom-control-label:before {
+    border-radius: 5px;
+}
+
+.custom-control-input {
+    width: 17px;
+    height: 17px;
+}
+
+.custom-control-label {
+    font-weight: 400;
+    color: $color-body;
+
+    &:before {
+        top: 0;
+        width: 17px;
+        height: 17px;
+        border-color: #e6eaef !important;
+    }
+
+    &:after {
+        position: absolute;
+        top: calc(50% + 1px);
+        left: -19px;
+        width: 7px;
+        height: 7px;
+        border-radius: 3px;
+        transform: translateY(-50%);
+    }
+}
+
+.custom-control-input:checked~.custom-control-label::before,
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+    color: inherit;
+    border-color: inherit;
+    background-color: inherit;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-image: none;
+    background-color: $color-primary;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: none;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-shadow: none !important;
+}
+
+.nice-select {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+
+    &:hover {
+        border-color: #eef3fa;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    .current,
+    .option {
+        color: $color-secondary;
+    }
+}
+
+.form-group-icon {
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    z-index: 2;
+    color: #d7d8da;
+    pointer-events: none;
+
+    +.form-control,
+    +select+.form-control {
+        padding-left: 45px;
+    }
+
+    +.form-control[type="date"],
+    +.form-control[type="time"] {
+        padding: 0 15px;
+    }
+}
+
+.form-group-date {
+    .form-group-icon {
+        top: 22px;
+        left: auto;
+        right: 14px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: $color-white;
+    }
+}
+
+::-webkit-inner-spin-button,
+::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.increase-qty,
+.decrease-qty {
+    display: flex;
+    justify-content: center;
+    width: 19px;
+    height: 15px;
+    position: absolute;
+    right: 10px;
+    font-size: 11px;
+    border: 0;
+    border-radius: 3px;
+    color: $color-secondary;
+    background-color: $color-white;
+    @include prefix(user-select, none, webkit moz ms o);
+}
+
+.increase-qty {
+    top: 16px;
+    align-items: flex-end;
+}
+
+.decrease-qty {
+    bottom: 16px;
+    align-items: flex-start;
+}
+
+.input-number::-webkit-inner-spin-button,
+.input-number::-webkit-outer-spin-button {
+    @include prefix(appearance, none, webkit moz ms o);
+}
+
+/* Extra Small Devices */
+@include xs-sm-screens {
+
+    .form-group,
+    .nice-select {
+        margin-bottom: 20px;
+    }
+}

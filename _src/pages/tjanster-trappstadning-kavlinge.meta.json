@@ -1,0 +1,84 @@
+{
+  "content_file": "tjanster-trappstadning-kavlinge.html",
+  "canonical": "/tjanster/trappstadning/kavlinge/",
+  "priority": "0.7",
+  "title": "Trappstädning i Kävlinge – fast pris & RUT-avdrag | Delco AB",
+  "description": "Trappstädning i Kävlinge som städabonnemang. Fast pris, ingen bindningstid, F-skatt och försäkring. 15 års erfarenhet i Kävlinge. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Trappstädning i Kävlinge",
+      "provider": {
+        "@type": "HousekeepingService",
+        "name": "Delco AB",
+        "telephone": "+464081488"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Kävlinge"
+      },
+      "url": "https://delco.nu/tjanster/trappstadning/kavlinge/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://delco.nu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tjänster",
+          "item": "https://delco.nu/tjanster/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trappstädning",
+          "item": "https://delco.nu/tjanster/trappstadning/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Kävlinge",
+          "item": "https://delco.nu/tjanster/trappstadning/kavlinge/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad kostar trappstädning för en BRF i Kävlinge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Priset beror på fastighetens storlek, antal trapphus och önskad städfrekvens. Vi besöker gärna fastigheten i Kävlinge och lämnar ett fast pris till styrelsen eller förvaltaren."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ni teckna avtal direkt med vår bostadsrättsförening i Kävlinge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi tecknar löpande avtal direkt med BRF:er, samfälligheter och fastighetsägare i Kävlinge, med en fast kontaktperson för styrelsen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ingår fönsterputs i trappstädningen i Kävlinge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fönsterputs i trapphus går att lägga till som tilläggstjänst utöver den löpande trappstädningen, oavsett var i Kävlinge fastigheten ligger."
+          }
+        }
+      ]
+    }
+  ]
+}

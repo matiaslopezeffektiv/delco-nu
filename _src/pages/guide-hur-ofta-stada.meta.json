@@ -1,0 +1,26 @@
+{
+  "content_file": "guide-hur-ofta-stada.html",
+  "canonical": "/guider/hur-ofta-stada-hemmet/",
+  "priority": "0.6",
+  "title": "Hur ofta bör man städa hemmet? | Delco AB",
+  "description": "Praktisk guide till städfrekvens rum för rum – och hur du avgör om veckostädning eller varannan vecka passar dig bäst.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "Guider", "item": "https://delco.nu/guider/"},
+        {"@type": "ListItem", "position": 3, "name": "Hur ofta bör man städa hemmet?", "item": "https://delco.nu/guider/hur-ofta-stada-hemmet/"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Hur ofta bör man städa hemmet?",
+      "datePublished": "2026-06-02",
+      "author": {"@type": "Organization", "name": "Delco AB"},
+      "publisher": {"@type": "Organization", "name": "Delco AB"}
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "content_file": "tjanster-fastighetsskotsel.html",
+  "canonical": "/tjanster/fastighetsskotsel/",
+  "priority": "0.8",
+  "title": "Fastighetsskötsel – fast pris & RUT/F-skatt | Delco AB",
+  "description": "Fastighetsskötsel som städabonnemang i Skåne. Fast pris, F-skatt, försäkring, ingen bindningstid. 19 års erfarenhet. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Fastighetsskötsel",
+      "provider": {
+        "@type": "HousekeepingService",
+        "name": "Delco AB",
+        "telephone": "+464081488"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Malmö"
+        },
+        {
+          "@type": "City",
+          "name": "Lund"
+        },
+        {
+          "@type": "City",
+          "name": "Landskrona"
+        },
+        {
+          "@type": "City",
+          "name": "Eslöv"
+        },
+        {
+          "@type": "City",
+          "name": "Kävlinge"
+        },
+        {
+          "@type": "City",
+          "name": "Helsingborg"
+        },
+        {
+          "@type": "City",
+          "name": "Staffanstorp"
+        }
+      ],
+      "url": "https://delco.nu/tjanster/fastighetsskotsel/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://delco.nu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tjänster",
+          "item": "https://delco.nu/tjanster/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fastighetsskötsel",
+          "item": "https://delco.nu/tjanster/fastighetsskotsel/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad ingår i fastighetsskötsel jämfört med trappstädning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trappstädning fokuserar på trapphus, hiss och entré, medan fastighetsskötsel även omfattar andra gemensamma ytor som tvättstuga, cykelrum, miljöhus och enklare utomhusskötsel. Tjänsterna går bra att kombinera."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ni teckna avtal direkt med vår bostadsrättsförening?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi tecknar löpande avtal direkt med BRF:er, samfälligheter och fastighetsägare, med en fast kontaktperson för styrelsen eller förvaltaren."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rapporterar ni brister ni upptäcker i fastigheten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, upptäcker vi till exempel trasig belysning eller annat som behöver åtgärdas i de gemensamma ytorna meddelar vi gärna styrelsen eller förvaltaren."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan fastighetsskötsel kombineras med trappstädning i samma avtal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, de flesta föreningar väljer att kombinera trappstädning och fastighetsskötsel i ett och samma avtal, med gemensamt schema och en fast kontaktperson."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det bindningstid på avtalet om fastighetsskötsel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, avtalet löper utan bindningstid och kan justeras eller sägas upp med kort varsel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Utför ni även snöskottning eller större utomhusarbeten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vår fastighetsskötsel fokuserar på städning av gemensamma ytor in- och utomhus. Hör av er så berättar vi vad som ingår för just er fastighet."
+          }
+        }
+      ]
+    }
+  ]
+}

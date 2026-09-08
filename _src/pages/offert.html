@@ -1,0 +1,199 @@
+    <!-- page title -->
+    <section class="page-title-layout4 page-title-light bg-overlay text-center">
+      <div class="bg-img"><img src="/assets/images/page-titles/13.jpg" alt="bakgrund"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="pagetitle__heading">Begär offert</h1>
+            <p class="pagetitle__desc">Berätta om tjänst, ort och frekvens – vi återkommer med ett fast pris,
+              vanligtvis inom en arbetsdag.</p>
+            <nav>
+              <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="/">Hem</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Begär offert</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section><!-- /.page-title -->
+
+    <section class="pb-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <aside class="sidebar has-marign-right sticky-top mb-30">
+              <div class="widget widget-help bg-overlay bg-overlay-primary">
+                <div class="bg-img"><img src="/assets/images/banners/5.jpg" alt="bakgrund"></div>
+                <div class="widget-content">
+                  <h3 class="widget__subtitle">Trygg städtjänst</h3>
+                  <h4 class="widget__title">F-skatt, försäkring & nöjd-kund-garanti</h4>
+                  <p class="widget__desc font-weight-bold mb-50">Fast pris, ingen bindningstid och RUT-avdrag för
+                    privatkunder.</p>
+                  <a href="tel:+464081488" class="phone__number">
+                    <i class="icon-phone"></i> <span>040-814 88</span>
+                  </a>
+                </div>
+              </div>
+              <div class="widget widget-services">
+                <h5 class="widget__title">Våra tjänster</h5>
+                <div class="widget-content">
+                  <ul class="list-unstyled mb-0">
+                    <li><a href="/tjanster/hemstadning/"><span>Hemstädning</span><i class="icon-arrow-right"></i></a></li>
+                    <li><a href="/tjanster/kontorsstadning/"><span>Kontorsstädning</span><i class="icon-arrow-right"></i></a></li>
+                    <li><a href="/tjanster/trappstadning/"><span>Trappstädning</span><i class="icon-arrow-right"></i></a></li>
+                    <li><a href="/tjanster/flytt-och-storstadning/"><span>Flytt- & storstädning</span><i class="icon-arrow-right"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </aside>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-sm-12 col-md-12 col-lg-8">
+            <section class="contact-layout4 py-0">
+              <div class="contact-panel">
+                <form class="contact-panel__form" method="post" action="/assets/php/contact.php" id="contactForm">
+                  <div class="row">
+                    <div class="col-12">
+                      <h4 class="contact-panel__title">Berätta om ditt behov</h4>
+                      <p class="contact-panel__desc mb-30">Ju mer du berättar, desto snabbare kan vi lämna ett
+                        korrekt pris.</p>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-service">Tjänst *</label>
+                        <select id="offer-service" name="service" class="form-control" required>
+                          <option value="">Välj tjänst</option>
+                          <option value="hemstadning">Hemstädning (abonnemang)</option>
+                          <option value="kontorsstadning">Kontorsstädning (abonnemang)</option>
+                          <option value="trappstadning">Trappstädning (abonnemang)</option>
+                          <option value="flytt">Flytt- & storstädning (engångstjänst)</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-area">Ort *</label>
+                        <select id="offer-area" name="area" class="form-control" required>
+                          <option value="">Välj ort</option>
+                          <option value="malmo">Malmö</option>
+                          <option value="lund">Lund</option>
+                          <option value="landskrona">Landskrona</option>
+                          <option value="eslov">Eslöv</option>
+                          <option value="kavlinge">Kävlinge</option>
+                          <option value="helsingborg">Helsingborg</option>
+                          <option value="staffanstorp">Staffanstorp</option>
+                          <option value="annan">Annan ort</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-frequency">Önskad frekvens</label>
+                        <select id="offer-frequency" name="frequency" class="form-control">
+                          <option value="varje-vecka">Varje vecka</option>
+                          <option value="varannan-vecka">Varannan vecka</option>
+                          <option value="manadsvis">En gång i månaden</option>
+                          <option value="engangs">Engångstillfälle</option>
+                          <option value="osaker">Osäker, vill ha förslag</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-size">Ungefärlig yta (kvm) *</label>
+                        <input type="text" class="form-control" placeholder="t.ex. 75" id="offer-size" name="size" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-property">Typ av fastighet *</label>
+                        <select id="offer-property" name="property_type" class="form-control" required>
+                          <option value="">Välj typ</option>
+                          <option value="villa">Hus/Villa</option>
+                          <option value="lagenhet">Lägenhet</option>
+                          <option value="lokal">Lokal/Kontor</option>
+                          <option value="stuga">Fritidshus/Stuga</option>
+                          <option value="trapphus">Trapphus/Gemensamt utrymme</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-floor">Våning</label>
+                        <input type="text" class="form-control" placeholder="t.ex. 3 tr, hiss finns" id="offer-floor" name="floor">
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-date">Önskat startdatum</label>
+                        <input type="date" class="form-control" id="offer-date" name="preferred_date">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group mb-20">
+                        <label>Kundtyp</label>
+                        <div>
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="privat" name="customerType" class="custom-control-input" value="Privat" checked>
+                            <label class="custom-control-label" for="privat">Privatperson</label>
+                          </div>
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="foretag" name="customerType" class="custom-control-input" value="Företag/BRF">
+                            <label class="custom-control-label" for="foretag">Företag / BRF</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group mb-0">
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" id="offer-rut" name="rut_avdrag" class="custom-control-input" value="Ja" checked>
+                          <label class="custom-control-label" for="offer-rut">Jag vill ansöka om RUT-avdrag (privatperson, gäller hemstädning samt flytt- & storstädning)</label>
+                        </div>
+                      </div>
+                      <div class="mt-20 pb-30 border-top"></div>
+                      <p class="mb-20">Dina kontaktuppgifter:</p>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-name">Namn *</label>
+                        <input type="text" class="form-control" placeholder="För- och efternamn" id="offer-name" name="name" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-phone">Telefon *</label>
+                        <input type="tel" class="form-control" placeholder="070-123 45 67" id="offer-phone" name="phone" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-email">E-post *</label>
+                        <input type="email" class="form-control" placeholder="namn@exempel.se" id="offer-email" name="email" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="offer-address">Adress</label>
+                        <input type="text" class="form-control" placeholder="Gata och nummer" id="offer-address" name="address">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label for="offer-message">Övrig information</label>
+                        <textarea id="offer-message" name="message" class="form-control" placeholder="Berätta gärna mer om vad du behöver hjälp med"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit"
+                        class="btn btn__secondary btn__block btn__xhight d-flex justify-content-between mt-10">
+                        <span>Skicka offertförfrågan</span> <i class="icon-arrow-right icon-outlined"></i>
+                      </button>
+                      <div class="contact-result"></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </section>
+          </div><!-- /.col-lg-8 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section>

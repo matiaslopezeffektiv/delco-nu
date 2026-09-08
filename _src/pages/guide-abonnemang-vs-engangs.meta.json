@@ -1,0 +1,26 @@
+{
+  "content_file": "guide-abonnemang-vs-engangs.html",
+  "canonical": "/guider/stadabonnemang-eller-engangsstadning/",
+  "priority": "0.6",
+  "title": "Städabonnemang eller engångsstädning? | Delco AB",
+  "description": "Skillnaden i pris, flexibilitet och resultat över tid mellan städabonnemang och engångsstädning – och hur du väljer rätt.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "Guider", "item": "https://delco.nu/guider/"},
+        {"@type": "ListItem", "position": 3, "name": "Städabonnemang eller engångsstädning?", "item": "https://delco.nu/guider/stadabonnemang-eller-engangsstadning/"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Städabonnemang eller engångsstädning – vad passar dig?",
+      "datePublished": "2026-03-25",
+      "author": {"@type": "Organization", "name": "Delco AB"},
+      "publisher": {"@type": "Organization", "name": "Delco AB"}
+    }
+  ]
+}

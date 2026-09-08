@@ -1,0 +1,84 @@
+{
+  "content_file": "tjanster-hemstadning-staffanstorp.html",
+  "canonical": "/tjanster/hemstadning/staffanstorp/",
+  "priority": "0.7",
+  "title": "Hemstädning i Staffanstorp – fast pris & RUT-avdrag | Delco AB",
+  "description": "Hemstädning i Staffanstorp som städabonnemang. Fast pris, ingen bindningstid, F-skatt och försäkring. 15 års erfarenhet i Staffanstorp. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Hemstädning i Staffanstorp",
+      "provider": {
+        "@type": "HousekeepingService",
+        "name": "Delco AB",
+        "telephone": "+464081488"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Staffanstorp"
+      },
+      "url": "https://delco.nu/tjanster/hemstadning/staffanstorp/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://delco.nu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tjänster",
+          "item": "https://delco.nu/tjanster/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hemstädning",
+          "item": "https://delco.nu/tjanster/hemstadning/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Staffanstorp",
+          "item": "https://delco.nu/tjanster/hemstadning/staffanstorp/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad kostar hemstädning i Staffanstorp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Priset beror på bostadens storlek, önskad frekvens och vilka moment som ska ingå. Som privatperson får du dessutom RUT-avdrag på arbetskostnaden. Berätta om ditt hem i Staffanstorp via vårt offertformulär så återkommer vi med ett fast pris."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Städar ni i hela Staffanstorp, eller bara vissa områden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vi städar i hela Staffanstorp, bland annat i centralorten och Hjärup. Hittar du inte ditt område, kontakta oss så stämmer vi av om vi täcker det."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det bindningstid på hemstädningen i Staffanstorp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, våra abonnemang har ingen bindningstid. Du kan pausa, ändra frekvens eller avsluta städningen i Staffanstorp när det passar dig."
+          }
+        }
+      ]
+    }
+  ]
+}

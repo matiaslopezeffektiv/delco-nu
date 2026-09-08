@@ -1,0 +1,17 @@
+{
+  "content_file": "integritetspolicy.html",
+  "canonical": "/integritetspolicy/",
+  "priority": "0.3",
+  "title": "Integritetspolicy | Delco AB",
+  "description": "Läs hur Delco AB samlar in, använder och skyddar dina personuppgifter i enlighet med GDPR, till exempel när du begär offert eller kontaktar oss.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "Integritetspolicy", "item": "https://delco.nu/integritetspolicy/"}
+      ]
+    }
+  ]
+}

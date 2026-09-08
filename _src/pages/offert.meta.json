@@ -1,0 +1,17 @@
+{
+  "content_file": "offert.html",
+  "canonical": "/offert/",
+  "priority": "0.9",
+  "title": "Begär offert – städabonnemang | Delco AB",
+  "description": "Begär offert på städabonnemang hos Delco AB. Fyll i tjänst, ort och frekvens så återkommer vi med ett fast pris – inom en arbetsdag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "Begär offert", "item": "https://delco.nu/offert/"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "content_file": "tjanster-hub.html",
+  "canonical": "/tjanster/",
+  "priority": "0.9",
+  "title": "Städtjänster & abonnemang | Delco AB",
+  "description": "Hemstädning, kontorsstädning, trappstädning och flyttstädning i Skåne. Fast pris, ingen bindningstid. Se våra tjänster och begär offert.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "Tjänster", "item": "https://delco.nu/tjanster/"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vilken tjänst passar mig – abonnemang eller engångsstädning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De flesta kunder väljer ett löpande abonnemang eftersom det håller hemmet eller lokalen jämnt rent till ett fast pris. Ska bostaden bara städas en gång passar engångstjänsten flytt- och storstädning bättre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Får jag RUT-avdrag på tjänsterna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, som privatperson får du RUT-avdrag på arbetskostnaden för hemstädning samt flytt- och storstädning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ni städa både hem, kontor och trapphus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi städar åt privatpersoner, företag och bostadsrättsföreningar och kan kombinera flera tjänster hos samma kund."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur snabbt kan ni börja städa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Efter att vi lämnat en offert kan vi oftast boka in första städtillfället inom någon till några veckor."
+          }
+        }
+      ]
+    }
+  ]
+}

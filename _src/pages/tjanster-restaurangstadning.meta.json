@@ -1,0 +1,128 @@
+{
+  "content_file": "tjanster-restaurangstadning.html",
+  "canonical": "/tjanster/restaurangstadning/",
+  "priority": "0.8",
+  "title": "Restaurangstädning – fast pris & RUT/F-skatt | Delco AB",
+  "description": "Restaurangstädning som städabonnemang i Skåne. Fast pris, F-skatt, försäkring, ingen bindningstid. 19 års erfarenhet. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Restaurangstädning",
+      "provider": {
+        "@type": "HousekeepingService",
+        "name": "Delco AB",
+        "telephone": "+464081488"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Malmö"
+        },
+        {
+          "@type": "City",
+          "name": "Lund"
+        },
+        {
+          "@type": "City",
+          "name": "Landskrona"
+        },
+        {
+          "@type": "City",
+          "name": "Eslöv"
+        },
+        {
+          "@type": "City",
+          "name": "Kävlinge"
+        },
+        {
+          "@type": "City",
+          "name": "Helsingborg"
+        },
+        {
+          "@type": "City",
+          "name": "Staffanstorp"
+        }
+      ],
+      "url": "https://delco.nu/tjanster/restaurangstadning/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://delco.nu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tjänster",
+          "item": "https://delco.nu/tjanster/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Restaurangstädning",
+          "item": "https://delco.nu/tjanster/restaurangstadning/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kan ni städa köket enligt de hygienkrav som gäller för livsmedelsverksamhet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vi anpassar städningen efter era rutiner för livsmedelshygien och fokuserar extra på avfettning av köksytor, stänkskydd och andra ytor som kräver grundlig rengöring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Städar ni innan öppning eller efter stängning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi lägger oftast restaurangstädningen tidig morgon eller efter stängning så att den inte stör verksamheten under öppettider."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ni även städa caféer och mindre serveringsställen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi städar restauranger, caféer och andra serveringsställen oavsett storlek, med ett schema anpassat efter er verksamhet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det bindningstid på restaurangstädningsavtalet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, avtalet löper utan bindningstid och kan justeras eller sägas upp med kort varsel om era behov förändras."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ni städa både före och efter en stängningsdag?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi lägger gärna in extra städtillfällen kring stängningsdagar eller inför storhelger när belastningen på köket är som störst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hanterar ni avfettning av köksfläkt och ventilation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grundlig avfettning av köksfläkt och ventilation går att lägga till som tilläggstjänst utöver den löpande restaurangstädningen – hör av er så stämmer vi av vad som passar ert kök."
+          }
+        }
+      ]
+    }
+  ]
+}

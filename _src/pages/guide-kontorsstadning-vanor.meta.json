@@ -1,0 +1,26 @@
+{
+  "content_file": "guide-kontorsstadning-vanor.html",
+  "canonical": "/guider/kontorsstadning-vanor/",
+  "priority": "0.6",
+  "title": "7 vanor som håller kontoret rent | Delco AB",
+  "description": "Enkla rutiner som förlänger känslan av ett nystädat kontor mellan städtillfällena – tips från Delco AB.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "Guider", "item": "https://delco.nu/guider/"},
+        {"@type": "ListItem", "position": 3, "name": "Vanor för rent kontor", "item": "https://delco.nu/guider/kontorsstadning-vanor/"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "7 vanor som håller kontoret rent mellan städtillfällena",
+      "datePublished": "2026-05-11",
+      "author": {"@type": "Organization", "name": "Delco AB"},
+      "publisher": {"@type": "Organization", "name": "Delco AB"}
+    }
+  ]
+}

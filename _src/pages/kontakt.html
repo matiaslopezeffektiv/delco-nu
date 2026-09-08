@@ -1,0 +1,131 @@
+    <!-- page title -->
+    <section class="page-title-layout1 page-title-light bg-overlay text-center">
+      <div class="bg-img"><img src="/assets/images/page-titles/5.jpg" alt="bakgrund"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8 offset-xl-2">
+            <h1 class="pagetitle__heading">Kontakta oss</h1>
+            <p class="pagetitle__desc">Ring, mejla eller skicka ett meddelande – vi återkommer så snart vi
+              kan, vanligtvis inom en arbetsdag.</p>
+            <nav>
+              <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="/">Hem</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Kontakt</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section><!-- /.page-title -->
+
+    <!-- Google Map -->
+    <section class="google-map py-0">
+      <iframe frameborder="0" height="450" width="100%" loading="lazy"
+        src="https://maps.google.com/maps?q=Lundav%C3%A4gen+78%2C+212+25+Malm%C3%B6%2C+Sverige&t=m&z=15&output=embed&iwloc=near"
+        title="Delco AB på kartan – Lundavägen 78, Malmö"></iframe>
+    </section><!-- /.GoogleMap -->
+
+    <!-- Contact panel -->
+    <section class="contact-layout1 pt-0 mt--100">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="contact-panel d-flex flex-wrap">
+              <form class="contact-panel__form" method="post" action="/assets/php/contact.php" id="contactForm">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h4 class="contact-panel__title">Skicka meddelande</h4>
+                    <p class="contact-panel__desc mb-30">Berätta kort vad du behöver hjälp med, så återkommer vi
+                      med svar eller en offert.</p>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Namn" id="contact-name" name="contact-name" required>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="E-post" id="contact-email" name="contact-email" required>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <input type="tel" class="form-control" placeholder="Telefon" id="contact-phone" name="contact-phone" required>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <select class="form-control" name="service">
+                        <option value="0">Välj tjänst</option>
+                        <option value="hemstadning">Hemstädning</option>
+                        <option value="kontorsstadning">Kontorsstädning</option>
+                        <option value="trappstadning">Trappstädning</option>
+                        <option value="flytt">Flytt- & storstädning</option>
+                        <option value="ovrigt">Övrigt</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <textarea class="form-control" placeholder="Meddelande" id="contact-message" name="contact-message"></textarea>
+                    </div>
+                    <button type="submit"
+                      class="btn btn__secondary btn__block btn__xhight d-flex justify-content-between mt-10">
+                      <span>Skicka meddelande</span> <i class="icon-arrow-right icon-outlined"></i>
+                    </button>
+                    <div class="contact-result"></div>
+                  </div>
+                </div>
+              </form>
+              <div class="contact-panel__info d-flex flex-column justify-content-between bg-overlay bg-overlay-primary-gradient">
+                <div class="bg-img"><img src="/assets/images/banners/2.jpg" alt="bakgrund"></div>
+                <div>
+                  <h3 class="contact-panel__subtitle color-white">Delco AB</h3>
+                  <h4 class="contact-panel__title color-white">Städabonnemang med fast pris</h4>
+                  <p class="contact-panel__desc font-weight-bold color-white mb-30">F-skatt, försäkring och
+                    nöjd-kund-garanti ingår alltid.</p>
+                </div>
+                <div>
+                  <ul class="contact__list list-unstyled mb-0">
+                    <li>
+                      <i class="icon-phone"></i><a href="tel:+464081488">040-814 88</a>
+                    </li>
+                    <li>
+                      <i class="icon-email"></i><a href="mailto:info@delcoab.se">info@delcoab.se</a>
+                    </li>
+                    <li>
+                      <i class="icon-location"></i><span>Lundavägen 78, 212 25 Malmö</span>
+                    </li>
+                    <li>
+                      <i class="icon-clock"></i><span>Mån–Fre 09:00–15:00</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /.contact layout 1 -->
+
+    <section class="feature-layout1 pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+            <div class="heading text-center">
+              <h2 class="heading__subtitle">Fler sätt att nå oss</h2>
+              <h3 class="heading__title mb-40">Redo att begära offert direkt?</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+            <p class="text__link text-center mb-0">Vill du hellre gå direkt till formuläret med tjänst och ort?
+              <a href="/offert/" class="btn btn__secondary btn__link mx-1">
+                <span>Gå till offertformuläret</span> <i class="icon-arrow-right color-primary"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>

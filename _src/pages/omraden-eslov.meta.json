@@ -1,0 +1,87 @@
+{
+  "content_file": "omraden-eslov.html",
+  "canonical": "/omraden/eslov/",
+  "priority": "0.9",
+  "title": "Kontorsstädning & Trappstädning i Eslöv – fast pris | Delco AB",
+  "description": "Kontorsstädning, trappstädning och hemstädning som abonnemang i Eslöv. Fast pris, RUT-avdrag, ingen bindningstid. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://delco.nu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Områden",
+          "item": "https://delco.nu/omraden/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Eslöv",
+          "item": "https://delco.nu/omraden/eslov/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur bokar jag städabonnemang i Eslöv?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fyll i offertformuläret med adress i Eslöv, önskad tjänst och frekvens. Vi lämnar ett fast pris, bokar en kostnadsfri provstädning och startar ett återkommande schema."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad kostar veckostädning i Eslöv?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Priset beror på bostadens eller lokalens storlek och hur ofta städningen ska ske. Privatpersoner får RUT-avdrag på arbetskostnaden. Begär offert för ett fast pris för veckostädning eller annan frekvens i Eslöv."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är Delco bästa städfirman i Eslöv?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vi låter betyget tala – 4,8 av 5 utifrån 148 recensioner, med F-skatt, försäkring och nöjd-kund-garanti. Begär en offert och bilda dig en egen uppfattning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vilka delar av Eslöv täcker ni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vi städar i hela Eslöv, bland annat i centrum, Väster och Stabbarp. Hittar du inte ditt område, kontakta oss så stämmer vi av om vi täcker det."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Får jag samma städare varje gång i Eslöv?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, du får en fast städare eller ett fast team som lär känna ditt hem eller din verksamhet i Eslöv – inte en ny person varje gång."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det bindningstid på städabonnemanget i Eslöv?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, våra städabonnemang i Eslöv har ingen bindningstid. Du kan pausa, ändra frekvens eller avsluta när det passar dig."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "content_file": "faq.html",
+  "canonical": "/faq/",
+  "priority": "0.8",
+  "title": "Vanliga frågor om städabonnemang | Delco AB",
+  "description": "Svar på vanliga frågor om städabonnemang, RUT-avdrag, bindningstid, priser och våra områden i Skåne. Hitta inte ditt svar? Kontakta oss.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://delco.nu/faq/"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Vad är skillnaden mellan städabonnemang och engångsstädning?", "acceptedAnswer": {"@type": "Answer", "text": "Ett städabonnemang är en löpande tjänst där samma städare kommer regelbundet enligt ett fast schema och pris. Engångsstädning, som flytt- eller storstädning, är en enstaka insats för ett specifikt tillfälle. De flesta av våra kunder väljer abonnemang eftersom det håller hemmet eller kontoret jämnt rent till ett förutsägbart pris."}},
+        {"@type": "Question", "name": "Vad kostar löpande städservice hos Delco?", "acceptedAnswer": {"@type": "Answer", "text": "Priset beror på bostadens eller lokalens storlek, önskad frekvens och vilka moment som ska ingå. Vi lämnar alltid ett fast pris innan städningen börjar, så det finns inga överraskningar på fakturan. Begär offert för en prisuppgift anpassad efter dina behov."}},
+        {"@type": "Question", "name": "Får jag RUT-avdrag på städningen?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, som privatperson får du RUT-avdrag på arbetskostnaden för hemstädning samt flytt- och storstädning, vilket sänker din faktiska kostnad."}},
+        {"@type": "Question", "name": "Är det bindningstid på städabonnemanget?", "acceptedAnswer": {"@type": "Answer", "text": "Nej, vi arbetar utan bindningstid. Du kan pausa, ändra frekvens eller avsluta abonnemanget när det passar dig."}},
+        {"@type": "Question", "name": "Har Delco AB F-skatt och försäkring?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, Delco AB innehar F-skattsedel och är fullt försäkrat vid varje uppdrag, både för privatkunder och företag."}},
+        {"@type": "Question", "name": "Vilka områden täcker ni?", "acceptedAnswer": {"@type": "Answer", "text": "Vi erbjuder städabonnemang i Malmö, Lund, Landskrona, Eslöv, Kävlinge, Helsingborg och Staffanstorp. Hittar du inte din ort, kontakta oss så stämmer vi av om vi kan hjälpa dig ändå."}},
+        {"@type": "Question", "name": "Hur bokar jag ett städabonnemang?", "acceptedAnswer": {"@type": "Answer", "text": "Fyll i vårt offertformulär med adress, önskad tjänst och frekvens. Vi återkommer med ett fast pris, bokar en kostnadsfri provstädning och sätter därefter upp ett återkommande schema."}},
+        {"@type": "Question", "name": "Kan jag pausa eller ändra mitt abonnemang?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, du kontaktar bara oss för att pausa en period, ändra frekvens eller lägga till en tjänst. Det finns ingen bindningstid."}},
+        {"@type": "Question", "name": "Vad händer om jag inte är nöjd med städningen?", "acceptedAnswer": {"@type": "Answer", "text": "Vi erbjuder nöjd-kund-garanti. Är något inte klart enligt önskemål återkommer vi och åtgärdar det utan extra kostnad."}},
+        {"@type": "Question", "name": "Städar ni trapphus åt bostadsrättsföreningar?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, vi tecknar löpande trappstädningsavtal direkt med BRF:er, samfälligheter och fastighetsägare, med en fast kontaktperson för styrelsen."}}
+      ]
+    }
+  ]
+}

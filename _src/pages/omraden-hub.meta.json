@@ -1,0 +1,55 @@
+{
+  "content_file": "omraden-hub.html",
+  "canonical": "/omraden/",
+  "priority": "0.9",
+  "title": "Städabonnemang i Skåne – våra områden | Delco AB",
+  "description": "Delco AB erbjuder städabonnemang i Malmö, Lund, Landskrona, Eslöv, Kävlinge, Helsingborg och Staffanstorp. Se ditt område och begär offert.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "Områden", "item": "https://delco.nu/omraden/"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vilka orter i Skåne städar ni i?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vi erbjuder städabonnemang och engångsstädning i Malmö, Lund, Landskrona, Eslöv, Kävlinge, Helsingborg och Staffanstorp, samt kringliggande orter i västra Skåne."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kostar det mer att städa utanför centralorten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, vi tar samma fasta pris oavsett var i vårt serviceområde du bor eller har din verksamhet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hittar jag inte min ort i listan – kan ni ändå hjälpa mig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kontakta oss ändå. Vi utökar successivt vårt serviceområde och kan ofta hjälpa till även strax utanför våra listade orter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Erbjuder ni samma tjänster i alla områden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, hemstädning, kontorsstädning, trappstädning samt flytt- och storstädning finns tillgängligt i samtliga våra sju områden."
+          }
+        }
+      ]
+    }
+  ]
+}

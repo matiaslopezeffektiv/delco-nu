@@ -1,0 +1,17 @@
+{
+  "content_file": "hur-det-fungerar.html",
+  "canonical": "/hur-det-fungerar/",
+  "priority": "0.8",
+  "title": "Så fungerar städabonnemanget | Delco AB",
+  "description": "Från offert till återkommande städning – se hur ditt städabonnemang hos Delco AB fungerar, steg för steg. Ingen bindningstid.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "Hur det fungerar", "item": "https://delco.nu/hur-det-fungerar/"}
+      ]
+    }
+  ]
+}

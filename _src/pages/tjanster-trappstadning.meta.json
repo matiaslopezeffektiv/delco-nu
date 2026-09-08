@@ -1,0 +1,30 @@
+{
+  "content_file": "tjanster-trappstadning.html",
+  "canonical": "/tjanster/trappstadning/",
+  "priority": "0.9",
+  "title": "Trappstädning för BRF & fastighetsägare | Delco AB",
+  "description": "Trappstädning som fast abonnemang åt BRF:er och fastighetsägare i Skåne. Fast schema, F-skatt och försäkring. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Trappstädning",
+      "provider": {"@type": "HousekeepingService", "name": "Delco AB", "@id": "https://delco.nu/#organization"},
+      "areaServed": ["Malmö", "Lund", "Landskrona", "Eslöv", "Kävlinge", "Helsingborg", "Staffanstorp"],
+      "url": "https://delco.nu/tjanster/trappstadning/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Hur ofta städas trapphuset?", "acceptedAnswer": {"@type": "Answer", "text": "Det vanligaste är en gång i veckan eller varannan vecka, men vi sätter upp ett schema som passar just er förening eller fastighet."}},
+        {"@type": "Question", "name": "Kan ni teckna avtal direkt med en bostadsrättsförening?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, vi tecknar löpande avtal direkt med BRF:er, samfälligheter och fastighetsägare, med en fast kontaktperson för styrelsen."}},
+        {"@type": "Question", "name": "Vad kostar trappstädning för en förening?", "acceptedAnswer": {"@type": "Answer", "text": "Priset beror på antal trapphus, våningar och önskad frekvens. Vi besöker gärna fastigheten och lämnar en offert med fast pris."}},
+        {"@type": "Question", "name": "Ingår fönsterputs i trapphuset?", "acceptedAnswer": {"@type": "Answer", "text": "Fönsterputs i trapphus kan läggas till som tilläggstjänst utöver den löpande trappstädningen – hör av er så stämmer vi av vad som passar er fastighet."}},
+        {"@type": "Question", "name": "Vem beställer städningen – styrelsen eller enskilda medlemmar?", "acceptedAnswer": {"@type": "Answer", "text": "Avtalet tecknas alltid med föreningen, samfälligheten eller fastighetsägaren – inte med enskilda boende."}},
+        {"@type": "Question", "name": "Är det bindningstid på trappstädningsavtalet?", "acceptedAnswer": {"@type": "Answer", "text": "Nej, avtalet löper utan bindningstid. Föreningen kan justera frekvens eller säga upp avtalet med kort varsel."}},
+        {"@type": "Question", "name": "Kan ni även städa gemensamma ytor som tvättstuga och cykelrum?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, utöver trapphuset kan vi inkludera tvättstuga, cykelrum och andra gemensamma ytor i avtalet."}}
+      ]
+    }
+  ]
+}

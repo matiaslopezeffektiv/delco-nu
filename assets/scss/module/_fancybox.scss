@@ -1,0 +1,219 @@
+/*-----------------------
+    fancyboxs
+------------------------*/
+.fancybox-item {
+    position: relative;
+    margin-bottom: 30px;
+    @include prefix(transition, all 0.3s linear, webkit moz ms o);
+
+
+    .fancybox__content {
+        overflow: hidden;
+        position: relative;
+        padding: 37px 40px 35px;
+    }
+
+    .fancybox__icon {
+        font-size: 50px;
+        line-height: 1;
+        color: $color-primary;
+        margin-bottom: 20px;
+    }
+
+    .fancybox__title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+}
+
+.fancyboxs-layout1 {
+    .fancybox-item {
+        display: flex;
+        flex-wrap: wrap;
+
+        .fancybox__icon {
+            font-size: 65px;
+            flex: 0 0 115px;
+            max-width: 115px;
+        }
+
+        .fancybox__body {
+            flex: 0 0 calc(100% - 115px);
+            max-width: calc(100% - 115px);
+        }
+
+
+        .fancybox__desc {
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+    .slick-dots {
+        text-align: left;
+        margin-left: 115px;
+    }
+}
+
+.fancyboxs-layout2 {
+    .heading__icon {
+        font-size: 60px;
+        line-height: 1;
+        color: #35fff0;
+    }
+
+    .fancybox-item .icon-outlined {
+        &:hover {
+            background-color: $color-dark;
+        }
+    }
+}
+
+.fancyboxs-layout3 {
+    .fancybox-item {
+        z-index: 3;
+        background-color: $color-white;
+
+        .fancybox__title {
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .fancybox__desc {
+            margin-bottom: 10px;
+        }
+    }
+
+    .fancybox-item-custom {
+        overflow: hidden;
+        border-radius: 15px;
+
+        .fancybox__title {
+            font-family: $font-accent;
+            font-size: 30px;
+            font-weight: 400;
+            color: $color-white;
+            margin-bottom: 5px;
+        }
+
+        .fancybox__desc {
+            font-weight: 700;
+            color: $color-white;
+            margin-bottom: 20px;
+        }
+
+        .btn__white.btn__link {
+            .icon-filled {
+                width: 33px;
+                height: 33px;
+                line-height: 31px;
+                color: $color-primary;
+                margin-right: 8px;
+            }
+
+            &:hover {
+                color: $color-secondary;
+
+                .icon-filled {
+                    color: $color-white;
+                    border-color: $color-secondary;
+                    background-color: $color-secondary;
+                }
+
+            }
+        }
+    }
+}
+
+.fancybox-light {
+
+    .fancybox-item .fancybox__icon,
+    .fancybox-item .fancybox__title,
+    .fancybox-item .fancybox__desc {
+        color: $color-white;
+    }
+
+    .btn__white.btn__link:hover {
+        color: $color-primary;
+    }
+}
+
+@media (min-width:992px) {
+    .fancyboxs-layout3 {
+        .fancybox-wrapper {
+            margin-top: -50px !important;
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .fancybox-item {
+        margin: 10px 0;
+
+        .fancybox__content {
+            padding: 20px;
+        }
+    }
+
+    .fancyboxs-layout1[class*="mt--"] {
+        margin-top: -30px !important;
+    }
+
+    .fancyboxs-layout2 .fancybox-item .fancybox__img {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .fancyboxs-layout3 {
+        .fancybox-wrapper {
+            overflow: hidden;
+            margin-top: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.08);
+
+            >[class*="col-"]:not(:last-of-type) {
+                border-right: 2px solid #e6e8eb;
+            }
+        }
+
+        .fancybox-item {
+            margin-bottom: 0;
+
+            &:not(.fancybox-item-custom) {
+                border-radius: 0;
+                box-shadow: none;
+            }
+
+            &.fancybox-item-custom {
+                margin-top: -50px;
+            }
+        }
+    }
+}
+
+/* Mobile Phones and tablets  */
+@include xs-sm-screens {
+    .fancybox-item {
+        .fancybox__title {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .fancybox__desc {
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+
+        .fancybox__icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+    }
+
+
+    .fancyboxs-layout3 .fancybox-item {
+        border-radius: 5px;
+        box-shadow: 0px 5px 83px 0px rgba(3, 43, 86, 0.13);
+    }
+}

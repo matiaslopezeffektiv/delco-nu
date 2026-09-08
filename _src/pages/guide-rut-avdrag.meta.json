@@ -1,0 +1,26 @@
+{
+  "content_file": "guide-rut-avdrag.html",
+  "canonical": "/guider/rut-avdrag-stadning/",
+  "priority": "0.6",
+  "title": "RUT-avdrag för städning – guide 2026 | Delco AB",
+  "description": "Så fungerar RUT-avdrag för hemstädning och flyttstädning: vad som ingår, hur mycket du får dra av och hur ansökan går till.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "Guider", "item": "https://delco.nu/guider/"},
+        {"@type": "ListItem", "position": 3, "name": "RUT-avdrag för städning", "item": "https://delco.nu/guider/rut-avdrag-stadning/"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "RUT-avdrag för städning – så fungerar det",
+      "datePublished": "2026-08-18",
+      "author": {"@type": "Organization", "name": "Delco AB"},
+      "publisher": {"@type": "Organization", "name": "Delco AB"}
+    }
+  ]
+}

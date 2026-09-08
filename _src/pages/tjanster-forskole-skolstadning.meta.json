@@ -1,0 +1,128 @@
+{
+  "content_file": "tjanster-forskole-skolstadning.html",
+  "canonical": "/tjanster/forskole-skolstadning/",
+  "priority": "0.8",
+  "title": "Förskole- & skolstädning – fast pris & RUT/F-skatt | Delco AB",
+  "description": "Förskole- & skolstädning som städabonnemang i Skåne. Fast pris, F-skatt, försäkring, ingen bindningstid. 19 års erfarenhet. Begär offert idag.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Förskole- & skolstädning",
+      "provider": {
+        "@type": "HousekeepingService",
+        "name": "Delco AB",
+        "telephone": "+464081488"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Malmö"
+        },
+        {
+          "@type": "City",
+          "name": "Lund"
+        },
+        {
+          "@type": "City",
+          "name": "Landskrona"
+        },
+        {
+          "@type": "City",
+          "name": "Eslöv"
+        },
+        {
+          "@type": "City",
+          "name": "Kävlinge"
+        },
+        {
+          "@type": "City",
+          "name": "Helsingborg"
+        },
+        {
+          "@type": "City",
+          "name": "Staffanstorp"
+        }
+      ],
+      "url": "https://delco.nu/tjanster/forskole-skolstadning/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://delco.nu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tjänster",
+          "item": "https://delco.nu/tjanster/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Förskole- & skolstädning",
+          "item": "https://delco.nu/tjanster/forskole-skolstadning/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Använder ni barnsäkra rengöringsmedel i förskolor och skolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi anpassar val av rengöringsmedel efter miljöer där barn vistas och tar gärna hänsyn till eventuella särskilda önskemål från verksamheten, till exempel allergier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan städningen ske utanför skoltid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi lägger oftast städningen tidig morgon, sen eftermiddag eller kväll så att den inte stör undervisning eller verksamhet under dagen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ni städa både kommunala och fristående förskolor/skolor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi tecknar löpande avtal med både kommunala och fristående verksamheter, samt föräldrakooperativ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Städar ni under lov och stängningsdagar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi anpassar oss gärna efter verksamhetens schema och kan till exempel lägga en grundligare storstädning under sommar- eller jullov när lokalerna står tomma."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det bindningstid på avtalet för förskolan eller skolan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, avtalet löper utan bindningstid och går att justera om verksamhetens behov förändras, till exempel vid ändrat elevantal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ni hantera nycklar och larmkoder till verksamheten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, vi kommer överens om rutiner för nycklar, passerkort eller larmkoder redan vid vårt första besök tillsammans med er."
+          }
+        }
+      ]
+    }
+  ]
+}

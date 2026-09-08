@@ -1,0 +1,166 @@
+/*-------------------------
+    page title 
+-------------------------*/
+[class*="page-title"] {
+    &.bg-overlay {
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba(3, 43, 86, .4);
+        }
+
+        &:before {
+            background: -webkit-linear-gradient(top, #021c37 0%, #051c33 14%, rgba(17, 27, 37, .1) 62%, rgba(27, 26, 26, 0) 100%);
+            background: -o-linear-gradient(top, #021c37 0%, #051c33 14%, rgba(17, 27, 37, .1) 62%, rgba(27, 26, 26, 0) 100%);
+            background: -ms-linear-gradient(top, #021c37 0%, #051c33 14%, rgba(17, 27, 37, .1) 62%, rgba(27, 26, 26, 0) 100%);
+            background: -moz-linear-gradient(top, #021c37 0%, #051c33 14%, rgba(17, 27, 37, .1) 62%, rgba(27, 26, 26, 0) 100%);
+            background: linear-gradient(to bottom, #021c37 0%, #051c33 14%, rgba(17, 27, 37, .1) 62%, rgba(27, 26, 26, 0) 100%);
+            opacity: .4;
+        }
+    }
+}
+
+.page-title-light {
+
+    .pagetitle__heading,
+    .pagetitle__desc,
+    .breadcrumb-item a,
+    .breadcrumb-item.active,
+    .breadcrumb-item+.breadcrumb-item::before {
+        color: $color-white;
+    }
+}
+
+.page-title-layout2 {
+    .pagetitle__desc {
+        max-width: 620px;
+    }
+}
+
+.page-title-layout3 {
+    .pagetitle__desc {
+        max-width: 520px;
+    }
+}
+
+.page-title-layout6 {
+
+    .breadcrumb-item a,
+    .breadcrumb-item.active,
+    .breadcrumb-item+.breadcrumb-item::before {
+        color: $color-secondary;
+    }
+}
+
+@media (min-width:1200px) {
+    .pagetitle__heading {
+        font-size: 75px;
+        line-height: 1.1;
+        margin-bottom: 20px;
+    }
+
+    .pagetitle__desc {
+        color: $color-white;
+        font-size: 17px;
+        font-weight: 700;
+        margin-bottom: 32px;
+    }
+
+    [class*="page-title"] {
+        .btn__lg {
+            padding: 0 20px;
+            min-width: 220px;
+        }
+    }
+
+    .page-title-layout1,
+    .page-title-layout2 {
+        padding-top: 135px;
+        padding-bottom: 40px;
+
+        .breadcrumb {
+            margin-top: 90px;
+        }
+    }
+
+    .page-title-layout2 {
+        .btn {
+            padding: 0 25px;
+            min-width: 190px;
+        }
+    }
+
+    .page-title-layout3 {
+        padding-top: 135px;
+        padding-bottom: 150px;
+    }
+
+    .page-title-layout4 {
+        padding-top: 190px;
+        padding-bottom: 40px;
+
+        .breadcrumb {
+            margin-top: 90px;
+        }
+    }
+
+    .page-title-layout5 {
+        padding-top: 190px;
+        padding-bottom: 190px;
+    }
+}
+
+@media (max-width:1199px) {
+
+    .page-title-layout1,
+    .page-title-layout2,
+    .page-title-layout4 {
+        .breadcrumb {
+            margin-top: 40px;
+        }
+    }
+}
+
+/* Medium Size Devices */
+@include md-screens {
+    [class*="page-title"] {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+    [class*="page-title"] {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .pagetitle__subheading {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .pagetitle__desc {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .pagetitle__heading {
+            font-size: 30px !important;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        .btn:not(.btn__link) {
+            height: 50px;
+            min-width: 140px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "content_file": "guide-flyttstadning-checklista.html",
+  "canonical": "/guider/checklista-flyttstadning/",
+  "priority": "0.6",
+  "title": "Checklista flyttstädning – förbered rätt | Delco AB",
+  "description": "Rum-för-rum-checklista inför flyttstädning: vad besiktningen brukar granska och hur du undviker vanliga anmärkningar.",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://delco.nu/"},
+        {"@type": "ListItem", "position": 2, "name": "Guider", "item": "https://delco.nu/guider/"},
+        {"@type": "ListItem", "position": 3, "name": "Checklista flyttstädning", "item": "https://delco.nu/guider/checklista-flyttstadning/"}
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Checklista: Så förbereder du en flyttstädning",
+      "datePublished": "2026-07-14",
+      "author": {"@type": "Organization", "name": "Delco AB"},
+      "publisher": {"@type": "Organization", "name": "Delco AB"}
+    }
+  ]
+}
