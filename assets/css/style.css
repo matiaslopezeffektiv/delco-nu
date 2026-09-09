@@ -1018,6 +1018,17 @@ textarea {
   z-index: 1;
 }
 
+/* Delco AB – CLS-fix: main.js flyttar denna <img> till en background-image på
+   föräldern och tar bort taggen, men det sker efter JS-körning. Utan detta
+   kan bilden hinna rendera i normalt dokumentflöde och orsaka layoutskift. */
+.bg-img > img {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .background-size-auto {
   background-size: auto !important;
 }

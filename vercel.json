@@ -1,15 +1,5 @@
 {
   "redirects": [
-    { "source": "/hemstadning-i-landskrona", "destination": "/omraden/landskrona/#hemstadning", "permanent": true },
-    { "source": "/hemstadning-i-kavlinge", "destination": "/omraden/kavlinge/#hemstadning", "permanent": true },
-    { "source": "/hemstadning-i-helsingborg", "destination": "/omraden/helsingborg/#hemstadning", "permanent": true },
-    { "source": "/kontorsstadning-i-eslov", "destination": "/omraden/eslov/#kontorsstadning", "permanent": true },
-    { "source": "/kontorsstadning-i-lund", "destination": "/omraden/lund/#kontorsstadning", "permanent": true },
-    { "source": "/kontorsstadning-i-landskrona", "destination": "/omraden/landskrona/#kontorsstadning", "permanent": true },
-    { "source": "/trappstadning-i-lund", "destination": "/omraden/lund/#trappstadning", "permanent": true },
-    { "source": "/flyttstadning-i-eslov", "destination": "/omraden/eslov/", "permanent": true },
-    { "source": "/omradeshubb/malmo", "destination": "/omraden/malmo/", "permanent": true },
-    { "source": "/omradeshubb/landskrona", "destination": "/omraden/landskrona/", "permanent": true },
     { "source": "/sekretesspolicy-eu", "destination": "/integritetspolicy/", "permanent": true },
 
     { "source": "/hemstadning-i-:ort", "destination": "/omraden/:ort/#hemstadning", "permanent": true },
@@ -17,5 +7,16 @@
     { "source": "/trappstadning-i-:ort", "destination": "/omraden/:ort/#trappstadning", "permanent": true },
     { "source": "/flyttstadning-i-:ort", "destination": "/omraden/:ort/", "permanent": true },
     { "source": "/omradeshubb/:ort", "destination": "/omraden/:ort/", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
+      ]
+    }
   ]
 }
