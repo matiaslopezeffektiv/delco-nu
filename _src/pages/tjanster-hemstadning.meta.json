@@ -2,8 +2,8 @@
   "content_file": "tjanster-hemstadning.html",
   "canonical": "/tjanster/hemstadning/",
   "priority": "0.9",
-  "title": "Hemstädning – städabonnemang med fast pris | Delco AB",
-  "description": "Hemstädning som återkommande abonnemang i Skåne. Fast pris, RUT-avdrag, samma städare varje gång. Begär offert från Delco AB idag.",
+  "title": "Hemstädning & Veckostädning – Fast Pris | Delco AB",
+  "description": "Hemstädning, veckostädning eller städning varannan vecka/månadsvis i Skåne. Fast pris, RUT-avdrag, samma städare varje gång. Begär offert från Delco AB idag.",
   "schema": [
     {
       "@context": "https://schema.org",
@@ -19,7 +19,7 @@
       "mainEntity": [
         {"@type": "Question", "name": "Vad kostar hemstädning som abonnemang?", "acceptedAnswer": {"@type": "Answer", "text": "Priset beror på bostadens storlek, önskad frekvens och vilka moment som ska ingå. Som privatperson får du dessutom RUT-avdrag på arbetskostnaden. Berätta om ditt hem via vårt offertformulär så återkommer vi med ett fast pris."}},
         {"@type": "Question", "name": "Vad är skillnaden mellan städabonnemang och engångsstädning?", "acceptedAnswer": {"@type": "Answer", "text": "Ett städabonnemang innebär att samma städare kommer till dig regelbundet enligt ett fast schema och pris, medan en engångsstädning är en enstaka insats, till exempel inför en flytt. De flesta kunder väljer abonnemang eftersom hemmet hålls jämnt rent till ett förutsägbart pris."}},
-        {"@type": "Question", "name": "Kan jag välja hemstädning varje vecka eller varannan vecka?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, du väljer den frekvens som passar dig – varje vecka, varannan vecka eller en gång i månaden. Du kan justera frekvensen längre fram om dina behov förändras."}},
+        {"@type": "Question", "name": "Vad är skillnaden på veckostädning, städning varannan vecka och månadsstädning?", "acceptedAnswer": {"@type": "Answer", "text": "Det handlar bara om hur ofta vi kommer. Veckostädning passar hushåll som vill hålla hemmet jämnt rent varje vecka, medan städning varannan vecka eller månadsstädning passar dig som klarar dig med lite glesare intervall. Priset justeras efter vald frekvens, och du kan alltid byta frekvens senare."}},
         {"@type": "Question", "name": "Är det bindningstid på hemstädningsabonnemanget?", "acceptedAnswer": {"@type": "Answer", "text": "Nej, våra abonnemang har ingen bindningstid. Du kan pausa eller avsluta städningen när det passar dig."}},
         {"@type": "Question", "name": "Behöver jag vara hemma när städningen sker?", "acceptedAnswer": {"@type": "Answer", "text": "Nej, de flesta av våra abonnemangskunder är på jobbet under städningen. Vi kommer överens om hur vi tar oss in redan vid provstädningen."}},
         {"@type": "Question", "name": "Kan jag ändra frekvens eller pausa abonnemanget senare?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, du kan när som helst justera frekvens, pausa abonnemanget under till exempel en semester, eller lägga till en tilläggstjänst."}},
