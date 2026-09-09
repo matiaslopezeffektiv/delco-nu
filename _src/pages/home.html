@@ -34,7 +34,8 @@
                 <h4 class="hero-form-card__title">Få ett fast pris inom 24 timmar</h4>
                 <p class="hero-form-card__desc">Fyll i formuläret så återkommer vi med en offert – inga
                   förpliktelser.</p>
-                <form class="hero-form-card__form" method="post" action="/assets/php/contact.php" id="heroContactForm">
+                <form class="hero-form-card__form delco-lead-form" method="post" action="/api/contact" id="heroContactForm">
+                  <input type="text" name="_hp" value="" style="position:absolute;left:-9999px;" tabindex="-1" autocomplete="off">
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
@@ -710,7 +711,8 @@
                 <div class="bg-img"><img src="/assets/images/banners/4.jpg" alt="banner"></div>
                 <h4 class="contact-panel__title mb-0">Begär offert</h4>
               </div>
-              <form class="contact-panel__form" method="post" action="/assets/php/contact.php" id="contactForm">
+              <form class="contact-panel__form delco-lead-form" method="post" action="/api/contact" id="contactForm">
+                  <input type="text" name="_hp" value="" style="position:absolute;left:-9999px;" tabindex="-1" autocomplete="off">
                 <div class="row">
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">

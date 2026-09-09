@@ -315,7 +315,8 @@
         <div class="row">
           <div class="col-12">
             <div class="contact-panel d-flex flex-wrap">
-              <form class="contact-panel__form" method="post" action="/assets/php/contact.php" id="contactForm">
+              <form class="contact-panel__form delco-lead-form" method="post" action="/api/contact" id="contactForm">
+                  <input type="text" name="_hp" value="" style="position:absolute;left:-9999px;" tabindex="-1" autocomplete="off">
                 <div class="row">
                   <div class="col-sm-12">
                     <h4 class="contact-panel__title">Skicka meddelande</h4>
@@ -548,6 +549,7 @@
   <script src="/assets/js/plugins.js"></script>
   <script src="/assets/js/main.js"></script>
   <script src="/assets/js/cookie-consent.js"></script>
+  <script src="/assets/js/lead-forms.js"></script>
 </body>
 
 </html>
