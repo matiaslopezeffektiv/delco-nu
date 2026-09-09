@@ -9906,3 +9906,40 @@ textarea.form-control {
     font-size: 13px;
   }
 }
+
+/* Delco AB – snabbformulär i hero */
+.hero-form-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  -webkit-box-shadow: 0px 20px 60px 0px rgba(3, 43, 86, 0.25);
+          box-shadow: 0px 20px 60px 0px rgba(3, 43, 86, 0.25);
+}
+
+.hero-form-card__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.hero-form-card__desc {
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-bottom: 20px;
+}
+
+.hero-form-card__form .form-group {
+  margin-bottom: 16px;
+}
+
+.hero-form-card__form .form-control {
+  height: 50px;
+}
+
+@media (max-width: 1199px) {
+  .hero-form-card {
+    margin-top: 40px;
+  }
+}
