@@ -309,6 +309,24 @@
             </div><!-- /.text-block -->
 
             <div class="text-block mb-40">
+              <h5 class="text-block__title">Cookies</h5>
+              <p class="text-block__desc mb-20">delco.nu sätter inga egna cookies för spårning eller marknadsföring.
+                Ditt val i vår cookie-ruta sparas lokalt i din webbläsare (så kallad local storage), inte som en
+                cookie, och delas aldrig med tredje part.</p>
+              <p class="text-block__desc mb-20">På sidan finns inbäddat innehåll från två tredjepartstjänster som
+                sätter egna cookies om du väljer att godkänna dem:</p>
+              <ul class="list-items list-items-layout2 list-unstyled mb-20">
+                <li><strong>Reco</strong> – visar våra kundrecensioner. Läs mer på
+                  <a href="https://www.reco.se/" target="_blank" rel="noopener noreferrer">reco.se</a>.</li>
+                <li><strong>YouTube</strong> – visar en video om Delco AB på om oss-sidan. Läs mer i
+                  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Googles integritetspolicy</a>.</li>
+              </ul>
+              <p class="text-block__desc mb-0">Dessa laddas inte in förrän du klickar på "Acceptera alla" i
+                cookie-rutan eller på "Godkänn cookies" vid det aktuella innehållet. Du kan när som helst ändra
+                ditt val via "Cookie-inställningar" längst ner på sidan.</p>
+            </div><!-- /.text-block -->
+
+            <div class="text-block mb-40">
               <h5 class="text-block__title">Dina rättigheter</h5>
               <p class="text-block__desc mb-20">Du har rätt att begära ett utdrag av de uppgifter vi har om dig,
                 rätt att få felaktiga uppgifter rättade, rätt att i vissa fall få dina uppgifter raderade samt rätt
@@ -427,6 +445,7 @@
                 <div class="footer__copyrights">
                   <span class="fz-14">&copy; 2026 Delco AB. Alla rättigheter förbehållna.</span>
                   <span class="fz-14"> · <a href="/integritetspolicy/">Integritetspolicy</a></span>
+                  <span class="fz-14"> · <a href="#" id="cookieSettingsLink">Cookie-inställningar</a></span>
                 </div>
               </div>
               <button id="scrollTopBtn">
@@ -443,11 +462,24 @@
       <i class="icon-phone"></i>
     </a>
 
+    <div class="cookie-banner" id="cookieBanner" hidden>
+      <div class="cookie-banner__inner">
+        <p class="cookie-banner__text">Vi använder cookies för nödvändig funktionalitet samt för inbäddat
+          innehåll som recensioner (Reco) och video (YouTube). Läs mer i vår
+          <a href="/integritetspolicy/">integritetspolicy</a>.</p>
+        <div class="cookie-banner__actions">
+          <button type="button" class="btn btn__secondary btn__outlined btn__sm" id="cookieDecline">Endast nödvändiga</button>
+          <button type="button" class="btn btn__primary btn__sm" id="cookieAccept">Acceptera alla</button>
+        </div>
+      </div>
+    </div>
+
   </div><!-- /.wrapper -->
 
   <script src="/assets/js/jquery-3.6.0.min.js"></script>
   <script src="/assets/js/plugins.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/cookie-consent.js"></script>
 </body>
 
 </html>

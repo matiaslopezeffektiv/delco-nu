@@ -9943,3 +9943,111 @@ textarea.form-control {
     margin-top: 40px;
   }
 }
+
+/* Delco AB – cookie-banner */
+.cookie-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1100;
+  background-color: #1a1a1a;
+  padding: 18px 20px;
+  -webkit-box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cookie-banner__inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cookie-banner__text {
+  color: #d9d9d9;
+  font-size: 13px;
+  margin: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 420px;
+          flex: 1 1 420px;
+}
+
+.cookie-banner__text a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.cookie-banner__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.cookie-banner__actions .btn__secondary.btn__outlined {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.cookie-banner__actions .btn__secondary.btn__outlined:hover {
+  color: #1a1a1a;
+  background-color: #ffffff;
+}
+
+/* Delco AB – placeholder för cookie-gated iframes (Reco, YouTube) */
+.cookie-embed-placeholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+  min-height: 225px;
+  padding: 30px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.cookie-embed-placeholder__text {
+  color: #6b6b6b;
+  font-size: 14px;
+  margin: 0;
+}
+
+.cookie-embed-placeholder__btn {
+  border: 0;
+  background-color: #c8302f;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cookie-gated-iframe[src=""],
+.cookie-gated-iframe:not([src]) {
+  display: none;
+}

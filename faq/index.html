@@ -607,6 +607,7 @@
                 <div class="footer__copyrights">
                   <span class="fz-14">&copy; 2026 Delco AB. Alla rättigheter förbehållna.</span>
                   <span class="fz-14"> · <a href="/integritetspolicy/">Integritetspolicy</a></span>
+                  <span class="fz-14"> · <a href="#" id="cookieSettingsLink">Cookie-inställningar</a></span>
                 </div>
               </div>
               <button id="scrollTopBtn">
@@ -623,11 +624,24 @@
       <i class="icon-phone"></i>
     </a>
 
+    <div class="cookie-banner" id="cookieBanner" hidden>
+      <div class="cookie-banner__inner">
+        <p class="cookie-banner__text">Vi använder cookies för nödvändig funktionalitet samt för inbäddat
+          innehåll som recensioner (Reco) och video (YouTube). Läs mer i vår
+          <a href="/integritetspolicy/">integritetspolicy</a>.</p>
+        <div class="cookie-banner__actions">
+          <button type="button" class="btn btn__secondary btn__outlined btn__sm" id="cookieDecline">Endast nödvändiga</button>
+          <button type="button" class="btn btn__primary btn__sm" id="cookieAccept">Acceptera alla</button>
+        </div>
+      </div>
+    </div>
+
   </div><!-- /.wrapper -->
 
   <script src="/assets/js/jquery-3.6.0.min.js"></script>
   <script src="/assets/js/plugins.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/cookie-consent.js"></script>
 </body>
 
 </html>
