@@ -106,11 +106,13 @@ def main():
         sitemap_entries.append((canonical_url, meta.get("priority", "0.7")))
 
     # sitemap.xml
+    build_date = datetime.date.today().isoformat()
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for url, priority in sitemap_entries:
         sm.append("  <url>")
         sm.append(f"    <loc>{url}</loc>")
+        sm.append(f"    <lastmod>{build_date}</lastmod>")
         sm.append(f"    <priority>{priority}</priority>")
         sm.append("  </url>")
     sm.append("</urlset>")
