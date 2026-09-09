@@ -14,6 +14,14 @@ PAGES = SRC / "pages"
 SITE_URL = "https://delco.nu"
 YEAR = str(datetime.date.today().year)
 
+# Sajten körs just nu på en vercel.app-förhandsvisning medan delco.nu fortfarande är en
+# annan, live WordPress-sajt. Håll NOINDEX = True tills domänbytet är klart och redirects
+# från den gamla sajten är på plats, sätt sedan till False inför lansering.
+NOINDEX = True
+ROBOTS_META = (
+    '\n  <meta name="robots" content="noindex, nofollow">' if NOINDEX else ""
+)
+
 PAGE_TEMPLATE = """<!DOCTYPE html>
 <html lang="sv">
 
@@ -21,7 +29,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="{description}">
+  <meta name="description" content="{description}">{robots_meta}
   <link rel="canonical" href="{canonical}">
   <link href="/assets/images/favicon/favicon.png" rel="icon">
   <title>{title}</title>
@@ -96,6 +104,7 @@ def main():
 
         html = PAGE_TEMPLATE.format(
             description=meta["description"],
+            robots_meta=ROBOTS_META,
             canonical=canonical_url,
             title=meta["title"],
             schema=schema_block(meta.get("schema", [])),
@@ -132,6 +141,9 @@ def main():
     for b in built:
         print("  -", b)
     print("Skrev sitemap.xml och robots.txt")
+    if NOINDEX:
+        print("\n*** NOINDEX = True — alla sidor har <meta name=\"robots\" content=\"noindex, nofollow\">. ***")
+        print("*** Sätt NOINDEX = False i build.py när domänbytet är klart och sajten ska bli sökbar. ***")
 
 
 if __name__ == "__main__":
