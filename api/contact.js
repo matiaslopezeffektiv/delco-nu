@@ -6,9 +6,9 @@
 //
 // Required environment variables (set in Vercel: Project Settings -> Environment Variables):
 //   RESEND_API_KEY   - your Resend API key (re_...)
-//   LEAD_EMAIL_TO    - where leads should be delivered, e.g. info@delcoab.se
-//   RESEND_FROM      - verified sender, e.g. offert@delco.nu (falls back to onboarding@resend.dev
-//                      for testing before a sending domain is verified in Resend)
+//   LEAD_EMAIL_TO    - where leads should be delivered; comma-separated for multiple recipients
+//   RESEND_FROM      - verified sender, e.g. no-reply@effektivmedia.nu (falls back to onboarding@resend.dev
+//                      for testing before the sending domain is verified in Resend)
 
 const FIELD_LABELS = {
   "contact-name": "Namn",
@@ -94,7 +94,10 @@ module.exports = async function handler(req, res) {
   }
 
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.LEAD_EMAIL_TO || "info@delcoab.se";
+  const to = (process.env.LEAD_EMAIL_TO || "info@delcoab.se")
+    .split(",")
+    .map((addr) => addr.trim())
+    .filter(Boolean);
   const from = process.env.RESEND_FROM || "Delco AB webbformulär <onboarding@resend.dev>";
 
   if (!apiKey) {
@@ -126,9 +129,9 @@ module.exports = async function handler(req, res) {
       },
       body: JSON.stringify({
         from,
-        to: [to],
+        to,
         reply_to: fields["contact-email"] || fields.email || undefined,
-        subject: `Ny förfrågan från ${name} (${phone})`,
+        subject: "Nytt meddelande från Delco AB - Kampanj",
         html,
       }),
     });
